@@ -1,0 +1,25 @@
+.map{
+  margin: auto;
+  position: relative;
+  width: 800px;
+  height: 600px;
+  &__btn-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  &__btn{
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: all .4s;
+    &:hover{
+      background-color: lighten(dodgerblue, 10%);
+    }
+  }
+  &__btn + &__btn{
+    margin-left: 30px;
+  }
+}

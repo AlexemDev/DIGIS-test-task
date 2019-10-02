@@ -1,0 +1,20 @@
+.header{
+  background-color: #161038;
+  padding: 10px 0;
+  .top-menu{
+    display: flex;
+    justify-content: center;
+    a{
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all .4s;
+      &:hover{
+        color: dodgerblue;
+      }
+    }
+    a + a{
+      margin-left: 20px;
+    }
+  }
+}
