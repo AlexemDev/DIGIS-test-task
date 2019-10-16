@@ -23,7 +23,7 @@ class Header extends Component {
                     <div className="top-menu">
                         <Link to="/" >Home</Link>
                         <Link to="/about">About</Link>
-                        {JSON.parse(localStorage.getItem('isAuth')).key ?
+                        {JSON.parse(localStorage.getItem('isAuth')) ?
                             <Link to="" onClick={this.handleLogOut}>LogOut</Link>
                             :
                             <Link to="/login">Login</Link>
