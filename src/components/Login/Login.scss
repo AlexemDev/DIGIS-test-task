@@ -1,6 +1,8 @@
 .login{
   display: flex;
   justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
   margin-top: 30px;
   &__form{
     display: flex;
